@@ -1,0 +1,20 @@
+# data and model outputs
+dataset/
+datasets/
+checkpoints/
+results/
+outputs/
+
+# python cache
+__pycache__/
+*.pyc
+
+# numpy / model files
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+
+# env
+.venv/

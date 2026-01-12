@@ -19,7 +19,7 @@ This repository is created for academic and educational purposes.
 
 ## Experiments and Extensions
 
-Based on the original implementation of Anomaly Transformer, I conducted two additional experimental studies on the SWaT dataset.
+Based on the original implementation of Anomaly Transformer, I conducted two additional experimental studies on the PSM dataset.
 
 ### Experiment 1 — Early Anomaly Detection
 

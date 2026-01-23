@@ -1,0 +1,39 @@
+CORRUPT TEST | {'type': 'missing', 'rate': 0.05, 'impute': 'ffill', 'seed': 0} ---
+Accuracy : 0.9607, Precision : 0.8838, Recall : 0.9883, F1 : 0.9332
+ROC-AUC  : 0.5179540370729595
+EDR@5: 0.2917, AvgLead@5: 2.6666666666666665
+EDR@10: 0.3889, AvgLead@10: 5.285714285714286
+EDR@20: 0.5000, AvgLead@20: 11.333333333333334
+¦¤F1 (corrupt - clean): 0.0038
+
+--- CORRUPT TEST | {'type': 'missing', 'rate': 0.1, 'impute': 'ffill', 'seed': 0} ---
+Accuracy : 0.9582, Precision : 0.8771, Recall : 0.9878, F1 : 0.9292
+ROC-AUC  : 0.5201111690602721
+EDR@5: 0.3333, AvgLead@5: 2.6666666666666665
+EDR@10: 0.4306, AvgLead@10: 4.935483870967742
+EDR@20: 0.5139, AvgLead@20: 10.054054054054054
+¦¤F1 (corrupt - clean): -0.0002
+
+--- CORRUPT TEST | {'type': 'spike', 'rate': 0.005, 'factor': 5.0, 'channel_frac': 0.1, 'seed': 0} ---
+Accuracy : 0.9572, Precision : 0.8708, Recall : 0.9931, F1 : 0.9279
+ROC-AUC  : 0.5269294339894877
+EDR@5: 0.3472, AvgLead@5: 2.44
+EDR@10: 0.4583, AvgLead@10: 5.090909090909091
+EDR@20: 0.5972, AvgLead@20: 9.906976744186046
+¦¤F1 (corrupt - clean): -0.0014
+
+--- CORRUPT TEST | {'type': 'spike', 'rate': 0.005, 'factor': 10.0, 'channel_frac': 0.1, 'seed': 0} ---
+Accuracy : 0.9162, Precision : 0.7707, Recall : 0.9938, F1 : 0.8681
+ROC-AUC  : 0.5307765799635793
+EDR@5: 0.5278, AvgLead@5: 2.763157894736842
+EDR@10: 0.6944, AvgLead@10: 6.1
+EDR@20: 0.7639, AvgLead@20: 13.727272727272727
+¦¤F1 (corrupt - clean): -0.0612
+
+--- CORRUPT TEST | {'type': 'spike', 'rate': 0.01, 'factor': 10.0, 'channel_frac': 0.1, 'seed': 0} ---
+Accuracy : 0.8997, Precision : 0.7367, Recall : 0.9940, F1 : 0.8462
+ROC-AUC  : 0.5250965529582103
+EDR@5: 0.5000, AvgLead@5: 2.888888888888889
+EDR@10: 0.6250, AvgLead@10: 6.533333333333333
+EDR@20: 0.7778, AvgLead@20: 14.946428571428571
+¦¤F1 (corrupt - clean): -0.0831
